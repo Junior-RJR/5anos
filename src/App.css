@@ -96,3 +96,13 @@
   font-size: 16px;
   color: #333;
 }
+
+.botao-resgatar {
+  background-color: #ff69b4;  /* Cor de fundo rosa, substitua conforme necessário */
+  color: #fff;  /* Cor do texto branco */
+  padding: 10px 20px;  /* Espaçamento interno do botão */
+  font-size: 16px;  /* Tamanho da fonte */
+  border: none;  /* Remover a borda para uma aparência mais limpa */
+  cursor: pointer;  /* Cursor ao passar por cima do botão */
+  /* Adicione outros estilos conforme necessário */
+}

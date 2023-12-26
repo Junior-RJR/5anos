@@ -1,7 +1,15 @@
 import React from 'react';
 import './App.css';
 
-function App() {
+const App = () => {
+  const handleResgatarVoucher = () => {
+    // Lógica para redirecionar para o WhatsApp com a chave Pix
+    const numeroWhatsapp = '11946252220';  // Substitua com o seu número
+    const mensagem = 'Olá! Gostaria de resgatar o voucher do Junior Gostosão. Chave Pix:';
+    const linkWhatsapp = `https://api.whatsapp.com/send?phone=${numeroWhatsapp}&text=${encodeURIComponent(mensagem)}`;
+    window.location.href = linkWhatsapp;
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -13,13 +21,12 @@ function App() {
           <p>Este voucher tem um valor inestimável</p>
           <p>e representa o nosso amor que vale muito mais do que</p>
           <p>R$119,99.</p>
-        </div>
 
-        {/* <div className="personal-message">
-          <p>Quero expressar o quanto sou feliz ao lado da minha amada Rebeca.</p>
-          <p>As bênçãos que Deus tem feito por nós são inúmeras, e confiamos que Ele continuará abençoando nossa união.</p>
-          <p>Com amor, Para minha marrentinha</p>
-        </div> */}
+          {/* Botão para resgatar o voucher */}
+          <button className="botao-resgatar" onClick={handleResgatarVoucher}>
+            Resgatar Voucher
+          </button>
+        </div>
       </header>
     </div>
   );
