@@ -10,6 +10,8 @@ const App = () => {
     window.location.href = linkWhatsapp;
   };
 
+// TESTEEEEE
+
   return (
     <div className="App">
       <header className="App-header">
