@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: linear-gradient(45deg, #ff6b6b, #ffa07a); /* Gradiente de cores românticas */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+/* Adicionando borda ao voucher */
+.voucher {
+  border: 4px solid #000000; /* Cor da borda branca */
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 400px;
+  background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente branco */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Adicionando estilo ao link */
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Restante do seu CSS ... */
+
+.voucher {
+  border: 2px solid #fff; /* Cor da borda branca */
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente branco */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: border 0.3s ease-in-out; /* Adicionando uma transição suave para a borda */
+}
+
+/* Efeito de hover para o voucher */
+.voucher:hover {
+  border: 4px solid #fff; /* Aumenta a largura da borda ao passar o mouse */
+}
+
+/* Modificando o estilo do texto dentro do voucher */
+.voucher p {
+  color: #333; /* Cor do texto mais escura para contrastar com a borda clara */
+  font-size: 18px; /* Tamanho da fonte aumentado */
+  transition: color 0.3s ease-in-out; /* Adicionando uma transição suave para a cor do texto */
+}
+
+/* Efeito de hover para o texto dentro do voucher */
+.voucher:hover p {
+  color: #000; /* Cor do texto mais escura ao passar o mouse */
+}
+
+/* Restante do seu CSS ... */
+
+.personal-message {
+  margin-top: 20px;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personal-message p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
