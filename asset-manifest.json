@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/5anos/static/css/main.cadabeac.css",
+    "main.js": "/5anos/static/js/main.e3d8b1c9.js",
+    "static/js/787.3008f852.chunk.js": "/5anos/static/js/787.3008f852.chunk.js",
+    "index.html": "/5anos/index.html",
+    "main.cadabeac.css.map": "/5anos/static/css/main.cadabeac.css.map",
+    "main.e3d8b1c9.js.map": "/5anos/static/js/main.e3d8b1c9.js.map",
+    "787.3008f852.chunk.js.map": "/5anos/static/js/787.3008f852.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cadabeac.css",
+    "static/js/main.e3d8b1c9.js"
+  ]
+}
